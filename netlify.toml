@@ -28,3 +28,9 @@ HUGO_VERSION = "0.62.2"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "happy-fermat-30b73d.netlify.com/*"
+to = "https://blog.konnyaku256.dev/:splat"
+status = 301
+force = true
