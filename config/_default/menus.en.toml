@@ -1,0 +1,23 @@
+[[main]]
+  identifier = "archive"
+  name = "archive"
+  url = "archive"
+  weight = 1
+
+[[main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  url = "https://konnyaku256.github.io"
+  weight = 2
+
+[[main]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/konnyaku256"
+  weight = 3
+
+[[main]]
+  identifier = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/@konnyaku256"
+  weight = 3
