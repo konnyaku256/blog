@@ -36,7 +36,7 @@ useGravatar = false
 avatar = "images/whoami/avatar.jpg"    
 location = "Mie, Japan"
 organization = "NIT, SC"
-link = "https://konnyaku256.github.io"
+link = "https://konnyaku256.dev"
 
 # sidebar
 enableBio = true # home page sidebar
