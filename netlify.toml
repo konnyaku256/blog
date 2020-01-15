@@ -30,7 +30,7 @@ HUGO_VERSION = "0.62.2"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-from = "happy-fermat-30b73d.netlify.com/*"
+from = "https://happy-fermat-30b73d.netlify.com/*"
 to = "https://blog.konnyaku256.dev/:splat"
 status = 301
 force = true
