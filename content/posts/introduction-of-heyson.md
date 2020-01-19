@@ -68,7 +68,7 @@ Audio playback API server
 ## 工夫したこと
 - Frontend/BackendのDockerコンテナはマルチステージビルドを使用して軽量化
 - 今回のアーキテクチャだとCORSの問題が発生するのでAudio playback APIのHTTPレスポンスヘッダにアクセルコントロールの設定を追加
-- GolangからRaspberry Piに接続されたスピーカへ音を鳴らすために標準モジュールのos/exec、`aplay`コマンドを使用(Raspbianの標準サウンドステムALSAを利用するため)
+- GolangからRaspberry Piに接続されたスピーカへ音を鳴らすために標準モジュールのos/exec、`aplay`コマンドを使用(Raspbianの標準サウンドシステムALSAを利用するため)
 
 ## 得られた知見
 今回のシステムではオーディオ再生命令を担当するプログラムがDockerコンテナ側で動いているため、通常ホストマシン本体の音を鳴らすことができません。
