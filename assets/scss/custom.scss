@@ -6,3 +6,7 @@ h2, h3, h4, h5, h6 {
 a {
     color: #546c78 !important;
 }
+
+.highlight>.chroma code[data-lang]::before {
+    text-transform: none !important;
+}
