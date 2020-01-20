@@ -1,2 +1,2 @@
 # blog
-🔨 Development repository of blog.konnyaku256.com
+🔨 Development repository of blog.konnyaku256.dev
