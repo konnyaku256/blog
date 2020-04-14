@@ -3,6 +3,18 @@
 
 紹介記事: [Welcome to my new blog !](https://blog.konnyaku256.dev/posts/welcome/)
 
+## How to use
+**Writing & Preview**
+```
+hugo new posts/hoge.md
+hugo server
+```
+
+**Deploy**
+```
+Merge to master
+```
+
 ## Feature
 - Hugo
 - Netlify
