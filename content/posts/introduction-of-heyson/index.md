@@ -6,6 +6,7 @@ tags:
 - Vue.js
 - Golang
 - Raspberry Pi
+draft: false
 ---
 
 ## はじめに
@@ -32,7 +33,7 @@ tags:
 ## 作ったもの / Hey Son
 <a href="https://github.com/konnyaku256/hey-son"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/konnyaku256/hey-son.png" width="460px"></a>
 
-{{< figure src="/images/heyson-web-client-view.png" width="300" >}}
+![Hey Son Web clientのview](heyson-web-client-view.png)
 
 ### What is "Hey Son"?
 Hey Sonはおかあさんのための息子を呼び出す魔法です。
@@ -48,7 +49,7 @@ Hey Sonはおかあさんのための息子を呼び出す魔法です。
 このアプリは息子の部屋のRaspberry Piとつながっています。 ボタンが押されたら、Raspberry Piに接続されたスピーカーから呼び出しが掛かるようになっています。
 
 ## Architecture
-![](/images/heyson-architecture.png)
+![Hey Son のアーキテクチャ図](heyson-architecture.png)
 
 ## Features
 ### Frontend

@@ -4,6 +4,7 @@ date: 2020-01-16T15:12:47+09:00
 description: "私の新しいブログを紹介します。"
 tags:
 - poem
+draft: false
 ---
 
 ## ご挨拶
@@ -33,7 +34,7 @@ Hugoは
 が魅力です。
 
 Lighthouseのスコア（特にチューニングしていなくても高いスコアが出ている）
-![Lighthouseのスコア](/images/lighthouse.png)
+![Lighthouseのスコア](lighthouse.png)
 
 ホスティングには[Netlify](https://www.netlify.com/)を使用しています。
 GitHubにpushされたら自動でHugoのビルドが走ってホスティングされるようになっています。

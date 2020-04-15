@@ -6,7 +6,7 @@
 ## How to use
 **Writing & Preview**
 ```
-hugo new posts/hoge.md
+hugo new posts/title
 hugo server
 ```
 
