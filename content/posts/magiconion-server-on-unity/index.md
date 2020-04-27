@@ -1,5 +1,5 @@
 ---
-title: "MagicOnion ServerをUnityで動かす"
+title: "MagicOnion.ServerをUnityで動かす"
 date: 2020-04-14T11:25:21+09:00
 description: "MagicOnion ServerをUnity(Monoランタイム)でも動かすことができたので紹介します。"
 meta_image: "posts/magiconion-server-on-unity/ogp.png"
@@ -25,7 +25,7 @@ https://github.com/Cysharp/MagicOnion
 開発者の@neueccさんによる資料がたいへん参考になります。
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/s9FspXgoqnZxvL" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/neuecc/unitymagiconionc" title="Unityによるリアルタイム通信とMagicOnionによるC#大統一理論の実現" target="_blank">Unityによるリアルタイム通信とMagicOnionによるC#大統一理論の実現</a> </strong> from <strong><a href="https://www.slideshare.net/neuecc" target="_blank">Yoshifumi Kawai</a></strong> </div>
 
-## MagicOnion ServerをUnityで動かす
+## MagicOnion.ServerをUnityで動かす
 本題です。
 MagicOnionはC#で一貫した開発体験を提供してくれますが、さらにUnityで一貫させることはできないのか？と思い、試してみました。
 UnityにはServer Buildというビルドオプションがあるので、これを使ってUnityをHeadlessモードでビルド、コンソールアプリとして実行することができるようになっています。
@@ -98,6 +98,9 @@ ref var v = ref values[i];
 MagicOnionのサーバ実装は.NET CoreしかサポートされてないしUnityでは無理かな〜と思っていたのですが、意外にも(動かすだけなら)すんなりと動かせてしまったので驚いています。
 ただ、実際に実装する際に推奨されている`MagicOnion.Hosting`を使った場合の動作確認まではできていないので今後検証したいと思っています。
 できれば.NET Generic Hostに乗っかっておきたいですからね。
+**2020/04/28 追記**
+`MagicOnion.Hosting`の動作検証しました。
+[Magiconion.HostingをUnityで動かす](https://blog.konnyaku256.dev/posts/magiconion-hosting-on-unity/)
 
-MagicOnion ServerをUnityで動かした場合、Unityの物理演算やゲームロジック、AIをそのままサーバ側に持たせることができるので、クライアントからサーバまでのゲーム開発を完全にUnityで一貫、コードも共通化させることができそうです。
+MagicOnion.ServerをUnityで動かした場合、Unityの物理演算やゲームロジック、AIをそのままサーバ側に持たせることができるので、クライアントからサーバまでのゲーム開発を完全にUnityで一貫、コードも共通化させることができそうです。
 Unity Server Buildでのパフォーマンスが通常のサーバアプリケーションと比べると気になりますが、開発効率向上の点で今後期待できそうでした。
