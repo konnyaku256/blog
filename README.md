@@ -23,4 +23,4 @@ git submodule update --remote --merge
 ## Feature
 - Hugo
 - Netlify
-- Cloudinary
+- ~~Cloudinary~~

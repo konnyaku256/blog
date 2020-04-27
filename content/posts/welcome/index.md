@@ -40,8 +40,9 @@ Lighthouseのスコア（特にチューニングしていなくても高いス�
 ホスティングには[Netlify](https://www.netlify.com/)を使用しています。
 GitHubにpushされたら自動でHugoのビルドが走ってホスティングされるようになっています。
 
-それから、OGP画像の生成に[Cloudinary](https://cloudinary.com/)を使用しています。
-このサービスのAPIを使用して動的に記事タイトルを画像化しています。
+~~それから、OGP画像の生成に[Cloudinary](https://cloudinary.com/)を使用しています。
+このサービスのAPIを使用して動的に記事タイトルを画像化しています。~~
+親テーマ更新にともない、Cloudinaryの使用をやめました。
 
 挿入するmetaタグの例
 ```html
