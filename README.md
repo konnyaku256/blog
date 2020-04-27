@@ -15,6 +15,11 @@ hugo server
 Merge to master
 ```
 
+**Update theme**
+```
+git submodule update --remote --merge
+```
+
 ## Feature
 - Hugo
 - Netlify
