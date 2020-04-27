@@ -149,3 +149,13 @@ commento = false
   copyrightLink = ""
   copyrightLinkImage = ""
   copyrightLinkText = ""
+
+[[share]]
+  name = "twitter"
+  username = "konnyaku256"
+[[share]]
+  name = "facebook"
+[[share]]
+  name = "linkedin"
+[[share]]
+  name = "reddit"
