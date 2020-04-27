@@ -5,6 +5,7 @@ description = "このサイトはkonnyaku256が運営している技術ブロ�
 custom_css = ["scss/custom.scss"] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 useFaviconGenerator = false # https://www.favicon-generator.org/
+meta_image = "images/ogp.png"
 
 themeOptions = ["light"] # select options for site color theme
 notAllowedTypesInHome = ["contact", "talks", "about"] # not allowed page types in home page. type can be set in front matter or default to folder name.
@@ -47,6 +48,8 @@ enableSidebarCategories = false
 enableToc = true # single page table of contents, you can replace this param to toc(toc = true)
 hideToc = false # Hide or Show toc
 enableTocSwitch = true # single page table of contents visibility switch
+tocPosition = "outer"
+tocFolding = true
 itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
 
 # footer

@@ -2,6 +2,7 @@
 title: "MagicOnion ServerをUnityで動かす"
 date: 2020-04-14T11:25:21+09:00
 description: "MagicOnion ServerをUnity(Monoランタイム)でも動かすことができたので紹介します。"
+meta_image: "posts/magiconion-server-on-unity/ogp.png"
 tags:
 - MagicOnion
 - gRPC

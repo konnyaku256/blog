@@ -2,6 +2,7 @@
 title: "Welcome to my new blog !"
 date: 2020-01-16T15:12:47+09:00
 description: "私の新しいブログを紹介します。"
+meta_image: "posts/welcome/ogp.png"
 tags:
 - poem
 draft: false
