@@ -12,18 +12,19 @@ draft: false
 ## GitHub Pages について
 
 [GitHub Pages](https://pages.github.com/) とは GitHub が提供している Website のホスティングサービスです。
-特定のブランチに静的ファイルを設置することで GitHub repository のプロジェクトページをかんたんに公開することができます。
+リポジトリに静的ファイルを設置することで GitHub repository のプロジェクトページをかんたんに公開することができます。
 通常ドメインは username.github.io でカスタムドメインも設定できます。
 
 ### Project site
 
-プロジェクトサイト (username.github.io/repository_name)の場合、例えば、開発している OSS のリポジトリに gh-pages というブランチを切ってそこに静的ファイルを置くだけで公開できます。
-公開元となるブランチは設定で任意のものに変更もできます。
+プロジェクトサイト (username.github.io/repository_name)の場合、リポジトリの master ブランチまたは master ブランチの docs 以下を公開ソースとして設定し、そこに静的ファイルを置くだけで公開できます。
+また、gh-pages というブランチを切ることでそのブランチを公開ソースとすることもできます。（下図を参照）
+![project siteの場合のGitHub Pagesの設定](./github-pages-project-site.png)
 
 ### User/Organization site
 
 ユーザサイト(username.github.io)の場合、username.github.io というリポジトリを使って公開できます。
-こちらは master ブランチに静的ファイルを置いて公開する必要があり、project site と違って任意のブランチで公開することはできません。（下図を参照）
+こちらは master ブランチに静的ファイルを置いて公開する必要があり、project site と違ってそれ以外のブランチやディレクトリで公開することはできません。（下図を参照）
 ![user siteの場合のGitHub Pagesの設定](./github-pages-user-site.png)
 
 ## 解決方法
