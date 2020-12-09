@@ -8,6 +8,9 @@ tags:
 draft: false
 ---
 
+> この記事は [JPHACKS 2020 Advent Calendar 2020](https://qiita.com/advent-calendar/2020/jphacks) の2日目の記事です。
+> 執筆後に上記のアドベントカレンダーへ登録させていただきました。
+
 こんにちは、[@konnyaku256](https://twitter.com/konnyaku256) です。
 先日、[JPHACKS 2020](https://jphacks.com/)というハッカソンがありまして、
 私の参加したチーム「蒟蒻畑」は嬉しいことに参加者間投票でブロック2位（同票）を獲得することができました。
