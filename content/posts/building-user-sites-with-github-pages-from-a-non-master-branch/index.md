@@ -2,7 +2,7 @@
 title: "GitHub Pagesのuser siteをmasterブランチ以外から構築する"
 date: 2020-05-21T12:21:25+09:00
 description: "GitHub Pagesのuser/organization siteをいい感じに開発するための方法を紹介します。"
-meta_image: "posts/building-user-sites-with-github-pages-from-a-non-master-branch/ogp.png"
+meta_image: "https://og-image.konnyaku256.vercel.app/GitHub Pagesのuser siteをmasterブランチ以外から構築する.png?theme=konnyaku256&fontSize=100px&author=@konnyaku256&blogTitle=こんにゃくの日記"
 tags:
   - GitHub
   - GitHub Pages

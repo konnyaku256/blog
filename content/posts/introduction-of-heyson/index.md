@@ -2,7 +2,7 @@
 title: "成人式ハッカソンでHey Sonというシステムを作った"
 date: 2020-01-19T11:43:24+09:00
 description: "このたび成人式ハッカソンという取り組みをやってみました。その概要と実際に作ったものを紹介します。"
-meta_image: "posts/introduction-of-heyson/ogp.png"
+meta_image: "https://og-image.konnyaku256.vercel.app/成人式ハッカソンでHey Sonというシステムを作った.png?theme=konnyaku256&fontSize=100px&author=@konnyaku256&blogTitle=こんにゃくの日記"
 tags:
 - Vue.js
 - Golang

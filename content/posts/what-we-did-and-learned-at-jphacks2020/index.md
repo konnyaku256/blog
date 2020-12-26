@@ -2,7 +2,7 @@
 title: "JPHACKS 2020で実践した内容と得られた知見"
 date: 2020-11-15T19:00:00+09:00
 description: "Miro x Figma x GitHub x Discord はオンラインハッカソンにて最強！"
-meta_image: "posts/what-we-did-and-learned-at-jphacks2020/ogp.png"
+meta_image: "https://og-image.konnyaku256.vercel.app/JPHACKS 2020で実践した内容と得られた知見.png?theme=konnyaku256&fontSize=100px&author=@konnyaku256&blogTitle=こんにゃくの日記"
 tags:
 - JPHACKS
 draft: false

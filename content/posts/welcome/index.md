@@ -2,7 +2,7 @@
 title: "Welcome to my new blog !"
 date: 2020-01-16T15:12:47+09:00
 description: "私の新しいブログを紹介します。"
-meta_image: "posts/welcome/ogp.png"
+meta_image: "https://og-image.konnyaku256.vercel.app/Welcome to my new blog !.png?theme=konnyaku256&fontSize=100px&author=@konnyaku256&blogTitle=こんにゃくの日記"
 tags:
 - poem
 draft: false

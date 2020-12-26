@@ -2,7 +2,7 @@
 title: "MagicOnion.HostingをUnityで動かす"
 date: 2020-04-28T01:05:59+09:00
 description: "MagicOnion.HostingをUnity(Monoランタイム)でも動かすことに成功しました。"
-meta_image: "posts/magiconion-hosting-on-unity/ogp.png"
+meta_image: "ttps://og-image.konnyaku256.vercel.app/MagicOnion.HostingをUnityで動かす.png?theme=konnyaku256&fontSize=100px&author=@konnyaku256&blogTitle=こんにゃくの日記"
 tags:
 - MagicOnion
 - gRPC
