@@ -21,6 +21,7 @@ git submodule update --remote --merge
 ```
 
 ## Feature
-- Hugo
-- Netlify
-- ~~Cloudinary~~
+- [Hugo](https://gohugo.io/)
+- [Netlify](https://www.netlify.com/)
+- [vercel/og-image](https://github.com/vercel/og-image)
+    - https://og-image.konnyaku256.vercel.app/
