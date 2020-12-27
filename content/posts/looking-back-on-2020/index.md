@@ -2,7 +2,7 @@
 title: "2020年を振り返る"
 date: 2020-12-31T19:00:00+09:00
 description: "いろいろあった2020年、今年もゆるめに振り返ります。"
-meta_image: "posts/looking-back-on-2020/ogp.png"
+meta_image: "https://og-image.konnyaku256.vercel.app/2020年を振り返る.png?theme=konnyaku256&fontSize=100px&author=@konnyaku256&blogTitle=こんにゃくの日記"
 tags:
 - poem
 draft: false
