@@ -1,6 +1,6 @@
 ---
 title: "2020年を振り返る"
-date: 2020-12-31T19:00:00+09:00
+date: 2020-12-28T19:00:00+09:00
 description: "いろいろあった2020年、今年もゆるめに振り返ります。"
 meta_image: "https://og-image.konnyaku256.vercel.app/2020年を振り返る.png?theme=konnyaku256&fontSize=100px&author=@konnyaku256&blogTitle=こんにゃくの日記"
 tags:
@@ -133,6 +133,7 @@ Award Dayに進出し、Best Team Collaboration Award など複数の賞をい�
 今年はご時世もあって、なかなかオフラインのイベントに参加することができませんでしたが、オンラインを中心に継続して活動できたことを嬉しく思います。
 各種イベントを運営、ともに活動してくれたみなさまに感謝します。
 
+みなさま良いお年を！
 来年もどうぞよろしくお願いいたします！
 
 ## P.S.
