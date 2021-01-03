@@ -145,6 +145,10 @@ commento = false
   paypal = "" # Paypal URL
   patreon = "" # Patreon URL
 
+[[footerLinks]]
+  name = "当ブログではアクセス解析のため「Googleアナリティクス」を利用しています。"
+  link = "https://policies.google.com/technologies/partner-sites"
+
 [copyrightOptions]
   enableCopyrightLink = false # if set, you can add copyright link
   copyrightLink = ""
