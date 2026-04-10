@@ -36,7 +36,7 @@ whoami = "Software Engineer"
 useGravatar = false
 avatar = "images/whoami/avatar.jpg"    
 location = "Tokyo, Japan"
-organization = "CyberAgent, Inc."
+organization = "Dinii Inc."
 link = "https://konnyaku256.dev"
 
 # sidebar
